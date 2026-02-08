@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>User Registration System</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Courses</a>
+      <a href="signup.html">Sign Up</a>
+      <a href="login.html">Login</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="form-section">
+    <div class="form-box">
+      <h2>Create Your Account</h2>
+      <form id="signupForm">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="password" id="password" placeholder="Password (8+ chars, Upper, Lower, Number)" required>
+        <button type="submit">Sign Up</button>
+      </form>
+      <div id="signupSuccess" class="success-box">
+        🎉 <b>Account Created Successfully!</b>
+        <p>You can now log in.</p>
+        <a href="login.html" class="btn">Go to Login</a>
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
